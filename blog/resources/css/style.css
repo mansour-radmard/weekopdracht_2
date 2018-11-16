@@ -1,0 +1,84 @@
+/* ===========================================
+    Project: Blog post in php
+    Default Theme
+    ------------------------------------------
+    Fonts: Raleway & Open Sans
+    ------------------------------------------
+    Colors:
+      Black:                    #000
+=========================================== */
+
+/* ===========================================
+    Global Styles
+===========================================*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 110px;
+}
+
+/* ===========================================
+    Blog page
+===========================================*/
+.row-bottom-space {
+  margin-bottom: 30px;
+}
+
+textarea {
+  height: 350px;
+}
+
+button.btn.btn-default {
+  width: 100%;
+  background-color: orange;
+}
+
+h6#name {
+  border-bottom: 2px solid #f8c803;
+  display: inline-block;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+}
+
+h6#date {
+  color: #b2b2b2;
+  margin-bottom: 25px
+}
+
+.item-box {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  padding: 35px;
+  margin-bottom: 35px;
+}
+
+.blog-title {
+  font-weight: 700;
+  border-bottom: 4px double #333;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 6px;
+}
+
+.blog-content {
+  border-right: 1px dotted #333;
+  padding-right: 20px;
+}
+
+div.date {
+  margin-bottom: 25px;
+  color: #b2b2b2;
+  font-size: small;
+  font-style: italic;
+}
